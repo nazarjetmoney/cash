@@ -18,21 +18,21 @@
 
     <section>
       <img
-        src="https://drive.google.com/uc?export=view&id=1nHl2PZEhjGl18XyZYWnWloFciszXvpXh"
+        src="img/stars.png"
         id="stars"
       />
       <img
-        src="https://drive.google.com/uc?export=view&id=11ywlLc0-vbBwuKFVfTX7stDFih0TBiJG"
+        src="img/moon.png"
         id="moon"
       />
       <img
-        src="https://drive.google.com/uc?export=view&id=1A8KUta55RJbL-47_J1_J8L2EVJnzWUJv"
+        src="img/mountains_behind.png"
         id="mountains_behind"
       />
-      <h2 id="text">Сергій підр</h2>
+      <h2 id="text">NOSCAM</h2>
       <a href="#sec" id="btn">Explore</a>
       <img
-        src="https://drive.google.com/uc?export=view&id=1sc056mKgpKjv7rBiop8QbPPtF7b8pwtu"
+        src="img/mountains_front.png"
         id="mountains_front"
       />
     </section>
@@ -55,6 +55,37 @@
 Думаю ви зрозуміли що тут водяться досить серйозні суми при правильному підході. Але така інформація коштує мінімум, доступ до нашого каналу коштує 800 грн, за це ви отримуєте максимальну свіжу інформації, та постійний контакт зі міною та кураторами.
       </p>
     </div>
+
+    <div class="foot">
+      <button class="button-36" role="button">Купити доступ</button>
+      const mountains_behind = document.getElementById("mountains_behind");
+const text = document.getElementById("text");
+const btn = document.getElementById("btn");
+const mountains_front = document.getElementById("mountains_front");
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function () {
+  let value = window.scrollY;
+  stars.style.left = value * 0.25 + "px";
+  moon.style.top = value * 1.05 + "px";
+  mountains_behind.style.top = value * 0.5 + "px";
+  mountains_front.style.top = value * 0 + "px";
+  text.style.marginRight = value * 4 + "px";
+  text.style.marginTop = value * 1.5 + "px";
+  btn.style.marginTop = value * 1.5 + "px";
+  header.style.top = value * 0.5 + "px";
+});
+
+      <button class="button-36" role="button">Увійти в канал</button>
+      const mountains_behind = document.getElementById("mountains_behind");
+      const text = document.getElementById("text");
+      function validateForm(<a href="https://t.me/+6-qe0stQeJw2ODdi">https://t.me/+6-qe0stQeJw2ODdi</a>) var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+    </div>
+
+    <footer>
+      <p>&copy; LUCKY JET. Усі права захищені.</p>
+  </footer>
     <script src="./script.js"></script>
   </body>
 </html>
